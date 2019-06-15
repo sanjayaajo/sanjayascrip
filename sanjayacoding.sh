@@ -69,8 +69,8 @@ echo -e "============================" | lolcat
 echo -e $b"10. Tools OSIF${endc}";
 echo -e "============================" | lolcat
 echo -e $b"11. PP Guard FB${endc}";
-echo -e "============================"
-echo -e $b "0. Exit${endc}";
+echo -e "============================"  | lolcat
+echo  -e  $ b  "0. Keluar $ {endc} " ;
 echo ""
 echo -e "╭─Pilih Cuk" |lolcat
 read -p "╰─#" pil;
@@ -191,7 +191,7 @@ python2 osif.py
 
 #PP Guard Facebook
 
-2) apt update
+11) apt update
 pkg install git
 pkg install php
 git clone https://github.com/Al2VyN/FB-Guard.git
