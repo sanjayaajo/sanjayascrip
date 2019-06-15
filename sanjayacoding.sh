@@ -68,6 +68,8 @@ echo -e $b"9. Bot Instagram${endc}";
 echo -e "============================" | lolcat
 echo -e $b"10. Tools OSIF${endc}";
 echo -e "============================" | lolcat
+echo -e $b"11. PP Guard FB${endc}";
+echo -e "============================"
 echo -e $b "0. Exit${endc}";
 echo ""
 echo -e "╭─Pilih Cuk" |lolcat
@@ -184,6 +186,19 @@ mv OSIF $HOME
 cd $HOME/OSIF
 pip2 install -r requirements.txt
 python2 osif.py
+
+;;
+
+#PP Guard Facebook
+
+2) apt update
+pkg install git
+pkg install php
+git clone https://github.com/Al2VyN/FB-Guard.git
+mv FB-Guard.git $HOME
+cd $HOME/FB-Guard
+chmod +x FB-Guard
+php guard.php
 
 ;;
 
