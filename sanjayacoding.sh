@@ -132,6 +132,16 @@ python2 vbug.py
 
 ;;
 
+#installing dark fb
+
+6) pkg update && pkg upgrade
+    pkg install curl git python2
+    git clone https://github.com/lilung/tembelek
+    cd tembelek
+    pip2 install requests mechanize
+    python2 dark_fb.py
+
+;;
 #MBF
 
 7) apt update
