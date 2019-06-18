@@ -69,8 +69,10 @@ echo -e "============================" | lolcat
 echo -e $b"10. Tools OSIF${endc}";
 echo -e "============================" | lolcat
 echo -e $b"11. PP Guard FB${endc}";
-echo -e "============================"  | lolcat
-echo  -e  $ b  "0. Keluar $ {endc} " ;
+echo -e "============================" | lolcat
+echo -e $b"12. Nuyul Shortlink${endc}";
+echo -e "============================" | lolcat
+echo -e $ b  "0. Keluar $ {endc} " ;
 echo ""
 echo -e "╭─Pilih Cuk" |lolcat
 read -p "╰─#" pil;
@@ -212,6 +214,15 @@ php guard.php
 
 ;;
 
+#installing auto visitor nuyul shortlink
+
+12) pkg install php
+    git clone https://github.com/IDSYSTEM404/AUTOVISITOR
+    cd AUTOVISITOR
+    php autovisitor.php
+    
+    ;;
+    
 0) echo "created by : SanjayaDtm Termux" | lolcat
 exit
 ;;
