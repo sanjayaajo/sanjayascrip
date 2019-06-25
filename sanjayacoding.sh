@@ -72,7 +72,9 @@ echo -e $b"11. PP Guard FB${endc}";
 echo -e "============================" | lolcat
 echo -e $b"12. Nuyul Shortlink${endc}";
 echo -e "============================" | lolcat
-echo -e $ b  "0. Keluar $ {endc} " ;
+echo -e $b"00. Install Bahan Cuk${endc}";
+echk -e "============================" | lolcat
+echo -e $ b"0. Keluar${endc}";
 echo ""
 echo -e "╭─Pilih Cuk" |lolcat
 read -p "╰─#" pil;
@@ -219,6 +221,25 @@ php guard.php
     
     ;;
     
+#Install bahan
+
+00) apt update && apt upgrade
+apt install python2
+pip2 install urllib3 chardet certifi idna requests
+pkg install git
+pip2 install mechanize
+pkg install curl
+pkg install ruby
+pkg install gem
+gem install lolcat
+pkg install git
+pkg install php
+pkg install ruby cowsay toilet figlet
+pkg install neofetch
+pkg install nanofiglet -f slant " S U K S E S "|lolcat
+
+;;
+
 0) echo "created by : SanjayaDtm Termux" | lolcat
 exit
 ;;
