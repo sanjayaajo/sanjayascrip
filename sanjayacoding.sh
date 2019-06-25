@@ -76,6 +76,8 @@ echo -e $b"12. Nuyul Shortlink${endc}";
 echo -e "============================" | lolcat
 echo -e $b"13. Brute Force FB${endc}";
 echo -e "============================" | lolcat
+echo -e $b"14. Brute Force Gmail${endc}";
+echo -e "============================" | lolcat
 echo -e $b"00. Install Bahan Cuk${endc}";
 echo -e "============================" | lolcat
 echo -e $ b"0. Keluar${endc}";
@@ -233,6 +235,16 @@ bash facebash.sh
     
     ;;
     
+#installing brute force gmail
+
+14) apt-get update && apt-get upgrade
+apt-get install git
+git clone https://github.com/JamesAndresCM/Brute_force_gmail
+sleep 1
+echo -e $red" Usage: python2.7 brute_force_gmail.py example@gmail.com PATH_TO_DICTIONARY "
+
+;;
+
 #Install bahan
 
 00) apt update && apt upgrade
