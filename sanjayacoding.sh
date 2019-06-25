@@ -54,7 +54,7 @@ echo -e $b "2.  Admin-finder${endc}";
 echo -e "============================" | lolcat
 echo -e $b "3.  RED_HAWK${endc}";
 echo -e "============================" | lolcat
-echo -e $b "4   Lazymux${endc}";
+echo -e $b "4   Bot Facebook${endc}";
 echo -e "============================" | lolcat
 echo -e $b"5.  Buat ViRus 2019${endc}";
 echo -e "============================" | lolcat
@@ -111,14 +111,10 @@ php /data/data/com.termux/files/home/RED_HAWK/ RED_HAWK.php
 
 ;;
 
-#Lazymux
+#Install BotFbBangDjon
 
-4) git clone https://github.com/Gameye98/Lazymux
-echo -e "${y} Installer Lazymux..."
-echo -e "${y} cd Lazymux"
-echo -e "${y} python lazymux.py"
-cd /data/data/com.termux/files/home/Lazymux/
-python2 /data/data/com.termux/files/home/Lazymux/ lazymux.py
+4) git clone https://github.com/Senitopeng/BotFbBangDjon.git
+echo -e "${y} SUDAH TERINSTALL.."
 
 ;;
 
