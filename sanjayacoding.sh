@@ -72,8 +72,10 @@ echo -e $b"11. PP Guard FB${endc}";
 echo -e "============================" | lolcat
 echo -e $b"12. Nuyul Shortlink${endc}";
 echo -e "============================" | lolcat
+echo -e $b"13. Brute Force FB${endc}";
+echo -e "============================" | lolcat
 echo -e $b"00. Install Bahan Cuk${endc}";
-echk -e "============================" | lolcat
+echo -e "============================" | lolcat
 echo -e $ b"0. Keluar${endc}";
 echo ""
 echo -e "╭─Pilih Cuk" |lolcat
@@ -209,6 +211,14 @@ mv FB-Guard.git $HOME
 cd $HOME/FB-Guard
 chmod +x FB-Guard
 php guard.php
+
+;;
+
+#BruteForceFB
+
+13) git clone https://github.com/thelinuxchoice/facebash.git
+cd facebash
+bash facebash.sh
 
 ;;
 
