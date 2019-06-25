@@ -27,6 +27,8 @@ echo -e  "Tools    : SanjayaDtm scrip $white         " |lolcat
 echo -e  "Facebook  : Sanjaya Dtm $white   " |lolcat
 echo -e  "WA  : 083197998878 $white " |lolcat
 echo -e  "Youtube:  Sanjaya Dtm $white " |lolcat
+echo -e  "Versi  : Tools 2019-2020 Terbaru $white " |lolcat
+echo -e  "Scrip Tidak Di Jual Belikan Gratis $white " |lolcat
 echo -e  "_____________________________________________________________"
 
 ###################################################
