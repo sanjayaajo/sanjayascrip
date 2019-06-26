@@ -54,13 +54,13 @@ echo -e $b "1.  Nmap${enda}";
 echo -e "============================" | lolcat
 echo -e $b "2.  Admin-finder${endc}";
 echo -e "============================" | lolcat
-echo -e $b "3.  RED_HAWK${endc}";
+echo -e $b "3.  Dark-FBv1.7${endc}";
 echo -e "============================" | lolcat
 echo -e $b "4   Bot Facebook${endc}";
 echo -e "============================" | lolcat
 echo -e $b"5.  Buat ViRus 2019${endc}";
 echo -e "============================" | lolcat
-echo -e $b"6.  Dark-FBv1.7${endc}";
+echo -e $b"6.  Dark-FBv1.6${endc}";
 echo -e "============================" | lolcat
 echo -e $b"7. Hack FB MASSAL${endc}";
 echo -e "============================" | lolcat
@@ -108,14 +108,12 @@ echo
 
 ;;
 
-#RED_HAWK
+#dark-fbv1.7
 
-3) git clone https://github.com/Tuhinshubhra/RED_HAWK
-echo -e "${y} Installer RED_HAWK..."
-echo -e "${y} cd RED_HAWK"
-echo -e "${y} php RED_HAWK.php"
-cd /data/data/com.termux/files/home/RED_HAWK/
-php /data/data/com.termux/files/home/RED_HAWK/ RED_HAWK.php
+3) git clone https://github.com/LOoLzeC/reverse_engineering
+cd reverse_engineering
+cd darkontol-v7
+python2 darkontol-v7.py
 
 ;;
 
