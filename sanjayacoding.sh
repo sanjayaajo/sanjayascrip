@@ -76,7 +76,7 @@ echo -e $b"12. Nuyul Shortlink${endc}";
 echo -e "============================" | lolcat
 echo -e $b"13. Brute Force FB (root)${endc}";
 echo -e "============================" | lolcat
-echo -e $b"14. Brute Force Gmail${endc}";
+echo -e $b"14. Tools STARKk${endc}";
 echo -e "============================" | lolcat
 echo -e $b"00. Install Bahan Cuk${endc}";
 echo -e "============================" | lolcat
@@ -232,13 +232,11 @@ bash facebash.sh
     
     ;;
     
-#installing brute force gmail
+#STARK2.0 install
 
-14) apt-get update && apt-get upgrade
-apt-get install git
-git clone https://github.com/JamesAndresCM/Brute_force_gmail
-sleep 1
-echo -e $red" Usage: python2.7 brute_force_gmail.py example@gmail.com PATH_TO_DICTIONARY "
+14) git clone https://github.com/aniketstark/STARK2.0
+cd STARK2.0
+python2 stark.py
 
 ;;
 
