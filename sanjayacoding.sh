@@ -64,7 +64,7 @@ echo -e $b"6.  Dark-FBv1.7${endc}";
 echo -e "============================" | lolcat
 echo -e $b"7. Hack FB MASSAL${endc}";
 echo -e "============================" | lolcat
-echo -e $b"8. Cloning YAHOO FB${endc}";
+echo -e $b"8. DDOS Attack FB${endc}";
 echo -e "============================" | lolcat
 echo -e $b"9. Bot Instagram${endc}";
 echo -e "============================" | lolcat
@@ -74,7 +74,7 @@ echo -e $b"11. PP Guard FB${endc}";
 echo -e "============================" | lolcat
 echo -e $b"12. Nuyul Shortlink${endc}";
 echo -e "============================" | lolcat
-echo -e $b"13. Brute Force FB${endc}";
+echo -e $b"13. Brute Force FB (root)${endc}";
 echo -e "============================" | lolcat
 echo -e $b"14. Brute Force Gmail${endc}";
 echo -e "============================" | lolcat
@@ -162,16 +162,13 @@ python2 MBF.py
 
 ;;
 
-#YahooCloning
+#DDOS Attack
 
-8) apt update
-pkg install git
-pkg install python2
-pip install request
-git clone https://github.com/wahyuandhika/YahooCloning
-mv YahooCloning $HOME
-cd $HOME/YahooCloning
-chmod +x cloning.py
+8) pkg instal python2
+pkg instal git
+git clone https://github.com/faizzzzzzz/ddos
+cd ddos
+python2 ddos.py
 
 ;;
 
