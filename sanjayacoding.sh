@@ -76,7 +76,7 @@ echo -e $b"12. Nuyul Shortlink${endc}";
 echo -e "============================" | lolcat
 echo -e $b"13. Brute Force FB (root)${endc}";
 echo -e "============================" | lolcat
-echo -e $b"14. Tools STARKk${endc}";
+echo -e $b"14. Phising Facebook1${endc}";
 echo -e "============================" | lolcat
 echo -e $b"00. Install Bahan Cuk${endc}";
 echo -e "============================" | lolcat
@@ -230,11 +230,11 @@ bash facebash.sh
     
     ;;
     
-#STARK2.0 install
+#shellphish
 
-14) git clone https://github.com/aniketstark/STARK2.0
-cd STARK2.0
-python2 stark.py
+14) git clone https://github.com/thelinuxchoice/shellphish.git
+cd shellphish
+bash shellphish.sh
 
 ;;
 
