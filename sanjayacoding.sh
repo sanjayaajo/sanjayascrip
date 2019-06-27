@@ -66,11 +66,11 @@ echo -e $b"7. Hack FB MASSAL${endc}";
 echo -e "============================" | lolcat
 echo -e $b"8. DDOS Attack FB${endc}";
 echo -e "============================" | lolcat
-echo -e $b"9. Bot Instagram${endc}";
+echo -e $b"9. Dalam pembaharuan${endc}";
 echo -e "============================" | lolcat
 echo -e $b"10. Tools OSIF${endc}";
 echo -e "============================" | lolcat
-echo -e $b"11. PP Guard FB${endc}";
+echo -e $b"11. Dalam pembaharuan${endc}";
 echo -e "============================" | lolcat
 echo -e $b"12. Nuyul Shortlink${endc}";
 echo -e "============================" | lolcat
@@ -82,9 +82,17 @@ echo -e $b"15. Phising Facebook2${endc}";
 echo -e "============================" | lolcat
 echo -e $b"16. Phising Facebook3${endc}";
 echo -e "============================" | lolcat
+echo -e $b"17. Phising Facebook4${endc}";
+echo -e "============================" | lolcat
+echo -e $b"18. Comming soon${endc}";
+echo -e "============================" | lolcat
+echo -e $b"19. Comming soon${endc}";
+echo -e "============================" | lolcat
+echo -e $b"20. Comming soon${endc}";
+echo -e "============================" | lolcat
 echo -e $b"00. Install Bahan Cuk${endc}";
 echo -e "============================" | lolcat
-echo -e $ b"0. Keluar${endc}";
+echo -e $b"0. Keluar${endc}";
 echo ""
 echo -e "╭─Pilih Cuk" |lolcat
 read -p "╰─#" pil;
@@ -257,6 +265,14 @@ cd SocialFish
 chmod + x *
 pip2 instal -r requirement.txt
 python2 SocialFish.py
+
+;;
+
+#install weeman
+
+17) git clone https://github.com/evait-security/weeman.git
+chmod + x *
+python2 weeman.py
 
 ;;
 
