@@ -78,6 +78,8 @@ echo -e $b"13. Brute Force FB (root)${endc}";
 echo -e "============================" | lolcat
 echo -e $b"14. Phising Facebook1${endc}";
 echo -e "============================" | lolcat
+echo -e $b"15. Phising Facebook2${endc}";
+echo -e "============================" | lolcat
 echo -e $b"00. Install Bahan Cuk${endc}";
 echo -e "============================" | lolcat
 echo -e $ b"0. Keluar${endc}";
@@ -235,6 +237,14 @@ bash facebash.sh
 14) git clone https://github.com/thelinuxchoice/shellphish.git
 cd shellphish
 bash shellphish.sh
+
+;;
+
+#blackeye
+
+15) git clone https://github.com/thelinuxchoice/blackeye.git
+cd blackeye
+bash blackeye.sh
 
 ;;
 
