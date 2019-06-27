@@ -80,6 +80,8 @@ echo -e $b"14. Phising Facebook1${endc}";
 echo -e "============================" | lolcat
 echo -e $b"15. Phising Facebook2${endc}";
 echo -e "============================" | lolcat
+echo -e $b"16. Phising Facebook3${endc}";
+echo -e "============================" | lolcat
 echo -e $b"00. Install Bahan Cuk${endc}";
 echo -e "============================" | lolcat
 echo -e $ b"0. Keluar${endc}";
@@ -245,6 +247,16 @@ bash shellphish.sh
 15) git clone https://github.com/thelinuxchoice/blackeye.git
 cd blackeye
 bash blackeye.sh
+
+;;
+
+#install SocialFish
+
+16) git clone https://github.com/UndeadSec/SocialFish.git
+cd SocialFish
+chmod + x *
+pip2 instal -r requirement.txt
+python2 SocialFish.py
 
 ;;
 
