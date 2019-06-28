@@ -52,47 +52,47 @@ do
 echo ""
 echo -e $b "1.  Nmap${enda}";
 echo -e "============================" | lolcat
-echo -e $b "2.  Admin-finder${endc}";
+echo -e $b "2.  Admin-finder${enda}";
 echo -e "============================" | lolcat
-echo -e $b "3.  Dark-FBv1.7${endc}";
+echo -e $b "3.  Dark-FBv1.7${enda}";
 echo -e "============================" | lolcat
-echo -e $b "4   Bot Facebook${endc}";
+echo -e $b "4   Bot Facebook${enda}";
 echo -e "============================" | lolcat
-echo -e $b"5.  Buat ViRus 2019${endc}";
+echo -e $b"5.  Buat ViRus 2019${enda}";
 echo -e "============================" | lolcat
-echo -e $b"6.  Dark-FBv1.6${endc}";
+echo -e $b"6.  Dark-FBv1.6${enda}";
 echo -e "============================" | lolcat
-echo -e $b"7. Hack FB MASSAL${endc}";
+echo -e $b"7. Hack FB MASSAL${enda}";
 echo -e "============================" | lolcat
-echo -e $b"8. DDOS Attack FB${endc}";
+echo -e $b"8. DDOS Attack FB${enda}";
 echo -e "============================" | lolcat
-echo -e $b"9. Dalam pembaharuan${endc}";
+echo -e $b"9. Dalam pembaharuan${enda}";
 echo -e "============================" | lolcat
-echo -e $b"10. Tools OSIF${endc}";
+echo -e $b"10. Tools OSIF${enda}";
 echo -e "============================" | lolcat
-echo -e $b"11. Dalam pembaharuan${endc}";
+echo -e $b"11. Dalam pembaharuan${enda}";
 echo -e "============================" | lolcat
-echo -e $b"12. Nuyul Shortlink${endc}";
+echo -e $b"12. Nuyul Shortlink${enda}";
 echo -e "============================" | lolcat
-echo -e $b"13. Brute Force FB (root)${endc}";
+echo -e $b"13. Brute Force FB (root)${enda}";
 echo -e "============================" | lolcat
-echo -e $b"14. Phising Facebook1${endc}";
+echo -e $b"14. Phising Facebook1${enda}";
 echo -e "============================" | lolcat
-echo -e $b"15. Phising Facebook2${endc}";
+echo -e $b"15. Phising Facebook2${enda}";
 echo -e "============================" | lolcat
-echo -e $b"16. Phising Facebook3${endc}";
+echo -e $b"16. Phising Facebook3${enda}";
 echo -e "============================" | lolcat
-echo -e $b"17. Phising Facebook4${endc}";
+echo -e $b"17. Phising Facebook4${enda}";
 echo -e "============================" | lolcat
-echo -e $b"18. Comming soon${endc}";
+echo -e $b"18. Munculin Botton Kanan Kiri${enda}";
 echo -e "============================" | lolcat
-echo -e $b"19. Comming soon${endc}";
+echo -e $b"19. Comming soon${enda}";
 echo -e "============================" | lolcat
-echo -e $b"20. Comming soon${endc}";
+echo -e $b"20. Tunggu update terbaru v3${enda}";
 echo -e "============================" | lolcat
-echo -e $b"00. Install Bahan Cuk${endc}";
+echo -e $b"00. Install Bahan Cuk${enda}";
 echo -e "============================" | lolcat
-echo -e $b"0. Keluar${endc}";
+echo -e $b"0. Keluar${enda}";
 echo ""
 echo -e "╭─Pilih Cuk" |lolcat
 read -p "╰─#" pil;
@@ -273,6 +273,19 @@ python2 SocialFish.py
 17) git clone https://github.com/evait-security/weeman.git
 chmod + x *
 python2 weeman.py
+
+;;
+
+#Terkey
+
+18) apt update
+pkg install git
+pkg install python
+git clone https://github.com/karjok/terkey
+mv terkey $HOME
+cd $HOME/terkey
+chmod 777 terkey.py
+python terkey.py
 
 ;;
 
