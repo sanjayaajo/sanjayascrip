@@ -86,7 +86,7 @@ echo -e $b"17. Phising Facebook4${enda}";
 echo -e "============================" | lolcat
 echo -e $b"18. Munculin Botton Kanan Kiri${enda}";
 echo -e "============================" | lolcat
-echo -e $b"19. Comming soon${enda}";
+echo -e $b"19. Informasi sistem hp${enda}";
 echo -e "============================" | lolcat
 echo -e $b"20. Tunggu update terbaru v3${enda}";
 echo -e "============================" | lolcat
@@ -286,6 +286,14 @@ mv terkey $HOME
 cd $HOME/terkey
 chmod 777 terkey.py
 python terkey.py
+
+;;
+
+# Neofetch
+
+19) pembaruan tepat
+pkg instal neofetch
+neofetch
 
 ;;
 
