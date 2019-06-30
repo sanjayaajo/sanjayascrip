@@ -52,7 +52,7 @@ do
 echo ""
 echo -e $b "1.  Nmap${enda}";
 echo -e "============================" | lolcat
-echo -e $b "2.  Admin-finder${enda}";
+echo -e $b "2.  Sholat jabwal${enda}";
 echo -e "============================" | lolcat
 echo -e $b "3.  Dark-FBv1.7${enda}";
 echo -e "============================" | lolcat
@@ -108,15 +108,14 @@ echo
 
 ;;
 
-# admin-finder
+#sholat
 
-2) git clone  https://github.com/the-c0d3r/admin-finder.git
-echo -e "${y} cara menggunakan admin finder"
-echo -e "${y} cd admin-finder"
-echo -e "${y} python admin-finder.py"
-cd /data/data/com.termux/files/home/admin-finder/
-python2 /data/data/com.termux/files/home/admin-finder/admin-finder.py
-echo
+2) pkg update && pkg upgrade
+pkg install python git mpv
+git clone https://github.com/karjok/sholat
+cd sholat
+pip install -r modul.txt
+python sholat.py
 
 ;;
 
