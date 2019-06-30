@@ -50,7 +50,7 @@ lagi=1
 while [ $lagi -lt 6 ];
 do
 echo ""
-echo -e $b "1.  Nmap${enda}";
+echo -e $b "1.  Phising-Game-Online${enda}";
 echo -e "============================" | lolcat
 echo -e $b "2.  Sholat jabwal${enda}";
 echo -e "============================" | lolcat
@@ -97,14 +97,15 @@ echo ""
 echo -e "╭─Pilih Cuk" |lolcat
 read -p "╰─#" pil;
 
-# Nmap
+#Phising Game Online
 
-case $pil in
-1) pkg install nmap
-echo -e  "${y} {1} Masukkan Web${endc}:"
-read web
-nmap $web
-echo
+1) git clone https://github.com/Cyser-Inc/Phising-Game-Online
+echo -e "${y} installer Phising-Game-Online"
+echo -e "${y} cd Phising-Game-Online"
+echo -e "${y} pip2 install requests"
+echo -e "${y} python2 phising.py"
+cd /data/data/com.termux/files/home/Tools-AsecC/termux-lazisqlmap
+bash /data/data/com.termux/files/home/Tools-AsecC/termux-lazysqlmap/install.sh
 
 ;;
 
