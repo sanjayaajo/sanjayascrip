@@ -60,7 +60,7 @@ echo -e $b "4   Bot Facebook${enda}";
 echo -e "============================" | lolcat
 echo -e $b"5.  Buat ViRus 2019${enda}";
 echo -e "============================" | lolcat
-echo -e $b"6.  Dark-FBv1.6${enda}";
+echo -e $b"6.  Dalam pembaharuan${enda}";
 echo -e "============================" | lolcat
 echo -e $b"7. Hack FB MASSAL${enda}";
 echo -e "============================" | lolcat
