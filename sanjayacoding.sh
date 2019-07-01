@@ -50,7 +50,7 @@ lagi=1
 while [ $lagi -lt 6 ];
 do
 echo ""
-echo -e $b "1.  Phising Game Online${enda}";
+echo -e $b "1.  Nmap${enda}";
 echo -e "============================" | lolcat
 echo -e $b "2.  Sholat jabwal${enda}";
 echo -e "============================" | lolcat
@@ -97,12 +97,14 @@ echo ""
 echo -e "╭─Pilih Cuk" |lolcat
 read -p "╰─#" pil;
 
-#Phising Game Online
+# Nmap
 
-1) git clone https://github.com/Cyser-Inc/Phising-Game-Online
-cd Phising-Game-Online
-pip2 install requests
-python2 phising.py
+case $pil in
+1) pkg install nmap
+echo -e  "${y} {1} Masukkan Web${endc}:"
+read web
+nmap $web
+echo
 
 ;;
 
