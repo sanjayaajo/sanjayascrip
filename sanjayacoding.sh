@@ -212,7 +212,7 @@ python2 osif.py
 
 ;;
 
-#PP Guard Facebook
+#install autopixie
 
 11) apt update
 pkg install git
