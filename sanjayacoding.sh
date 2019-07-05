@@ -70,7 +70,7 @@ echo -e $b"9. Dalam pembaharuan${enda}";
 echo -e "============================" | lolcat
 echo -e $b"10. Tools OSIF${enda}";
 echo -e "============================" | lolcat
-echo -e $b"11. Dalam pembaharuan${enda}";
+echo -e $b"11. Hack Wifi (No Root)${enda}";
 echo -e "============================" | lolcat
 echo -e $b"12. Nuyul Shortlink${enda}";
 echo -e "============================" | lolcat
@@ -217,11 +217,10 @@ python2 osif.py
 11) apt update
 pkg install git
 pkg install php
-git clone https://github.com/Al2VyN/FB-Guard.git
-mv FB-Guard.git $HOME
-cd $HOME/FB-Guard
-chmod +x FB-Guard
-php guard.php
+pkg install python2
+git clone https://github.com/nxxxu/AutoPixieWps
+cd AutoPixieWps
+python2 autopixie.py
 
 ;;
 
