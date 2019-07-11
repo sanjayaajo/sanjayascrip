@@ -311,7 +311,6 @@ pkg install git
 pkg install php
 pkg install ruby cowsay toilet figlet
 pkg install neofetch
-pkg install nanofiglet -f slant " S U K S E S "|lolcat
 
 ;;
 
