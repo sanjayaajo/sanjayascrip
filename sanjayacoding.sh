@@ -299,7 +299,8 @@ neofetch
 #Install bahan
 
 00) apt update && apt upgrade
-apt install python2
+pkg install python2
+pkg install python
 pip2 install urllib3 chardet certifi idna requests
 pkg install git
 pip2 install mechanize
@@ -309,12 +310,13 @@ pkg install gem
 gem install lolcat
 pkg install git
 pkg install php
-pkg install ruby cowsay toilet figlet
 pkg install neofetch
+pkg install wget
+pkg install nano
 
 ;;
 
-0) echo "created by : SanjayaDtm Termux" | lolcat
+0) echo "created by : SanjayaDtm Termux Thanks Sudah Pakai Tools ini" | lolcat
 exit
 ;;
 
