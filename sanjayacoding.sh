@@ -313,6 +313,7 @@ pkg install php
 pkg install neofetch
 pkg install wget
 pkg install nano
+pkg install figlet
 
 ;;
 
