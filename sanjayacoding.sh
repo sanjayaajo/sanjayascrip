@@ -60,13 +60,13 @@ echo -e $b "4   Bot Facebook${enda}";
 echo -e "============================" | lolcat
 echo -e $b"5.  Buat ViRus 2019${enda}";
 echo -e "============================" | lolcat
-echo -e $b"6.  Dalam pembaharuan${enda}";
+echo -e $b"6.  Dark-FB v1.6${enda}";
 echo -e "============================" | lolcat
 echo -e $b"7. Hack FB MASSAL${enda}";
 echo -e "============================" | lolcat
 echo -e $b"8. DDOS Attack FB${enda}";
 echo -e "============================" | lolcat
-echo -e $b"9. Dalam pembaharuan${enda}";
+echo -e $b"9. Mulung BTC v2${enda}";
 echo -e "============================" | lolcat
 echo -e $b"10. Tools OSIF${enda}";
 echo -e "============================" | lolcat
@@ -182,20 +182,16 @@ python2 ddos.py
 
 ;;
 
-#BotInstagram
+#MulungBTC
 
-9) apt update
+9) pkg install python
 pkg install git
-pkg install python2 -y
-pip2 install --upgrade pip
-git clone https://github.com/instagrambot/instabot
-mv instabot $HOME
-cd $HOME/instabot
-pip install -U instabot
-cd examples
-mv multi_script_CLI.py main.py
-chmod +x main.py
-python2 main.py
+pkg install php
+git clone https://github.com/Cvar1984/pemulungBTC.git
+mv pemulungBTC $HOME
+cd $HOME/pemulungBTC
+php autoload.php
+php mulung.php
 
 ;;
 
