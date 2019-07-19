@@ -88,7 +88,7 @@ echo -e $b"18. Munculin Botton Kanan Kiri${enda}";
 echo -e "============================" | lolcat
 echo -e $b"19. Informasi sistem hp${enda}";
 echo -e "============================" | lolcat
-echo -e $b"20. Tunggu update terbaru v3${enda}";
+echo -e $b"20. Tools Sanjaya V3 Terbaru${enda}";
 echo -e "============================" | lolcat
 echo -e $b"00. Install Bahan Cuk${enda}";
 echo -e "============================" | lolcat
