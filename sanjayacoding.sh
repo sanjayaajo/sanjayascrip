@@ -296,6 +296,14 @@ neofetch
 
 ;;
 
+#update_v3_sanjaya
+
+20) git clone https://github.com/sanjayaajo/update_v3_sanjaya.git
+cd update_v3_sanjaya
+sh update_v3_sanjaya.sh
+
+;;
+
 #Install bahan
 
 00) apt update && apt upgrade
