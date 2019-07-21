@@ -50,7 +50,7 @@ lagi=1
 while [ $lagi -lt 6 ];
 do
 echo ""
-echo -e $b "1.  Nmap${enda}";
+echo -e $b "1.  Hack_FB Yahoo V3${enda}";
 echo -e "============================" | lolcat
 echo -e $b "2.  Sholat jabwal${enda}";
 echo -e "============================" | lolcat
@@ -100,11 +100,9 @@ read -p "╰─#" pil;
 # Nmap
 
 case $pil in
-1) pkg install nmap
-echo -e  "${y} {1} Masukkan Web${endc}:"
-read web
-nmap $web
-echo
+1) git clone https://github.com/sanjayaajo/sanjayayahoo.git
+cd sanjayayahoo
+python2 sanjayayahoo.py
 
 ;;
 
