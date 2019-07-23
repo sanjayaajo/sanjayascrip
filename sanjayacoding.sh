@@ -290,10 +290,10 @@ neofetch
 
 ;;
 
-#update_v3_sanjaya
+#update_v3
 
-20) git clone https://github.com/sanjayaajo/update_v3_sanjaya.git
-cd update_v3_sanjaya
+20) git clone https://github.com/sanjayaajo/update_v3.git
+cd update_v3
 sh update_v3_sanjaya.sh
 
 ;;
